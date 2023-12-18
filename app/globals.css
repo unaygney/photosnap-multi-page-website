@@ -50,4 +50,20 @@
     font-weight: 400;
     line-height: 25px; /* 166.667% */
   }
+
+  .btn-dark {
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+
+  .btn-dark:hover {
+    background: #dfdfdf;
+    color: #000;
+  }
 }
