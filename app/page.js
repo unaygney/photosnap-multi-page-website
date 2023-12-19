@@ -6,7 +6,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
-      <div className="triangle "></div>
+      <div>content</div>
     </div>
   );
 }
