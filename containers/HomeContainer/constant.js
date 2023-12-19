@@ -11,6 +11,19 @@ import DesignedMobileImg from "@/assets/images/home/mobile/designed-for-everyone
 import DesignedTabletImg from "@/assets/images/home/tablet/designed-for-everyone.jpg";
 import DesignedDesktopImg from "@/assets/images/home/desktop/designed-for-everyone.jpg";
 
+// CARD INFO IMAGES
+import CardMountainsMobileImg from "@/assets/images/stories/mobile/mountains.jpg";
+import CardMountainsDesktopImg from "@/assets/images/stories/desktop/mountains.jpg";
+
+import CardSunsetMobileImg from "@/assets/images/stories/mobile/cityscapes.jpg";
+import CardSunsetDesktopImg from "@/assets/images/stories/desktop/cityscapes.jpg";
+
+import CardVoyageMobileImg from "@/assets/images/stories/mobile/18-days-voyage.jpg";
+import CardVoyageDesktopImg from "@/assets/images/stories/desktop/18-days-voyage.jpg";
+
+import CardArchitecMobileImg from "@/assets/images/stories/mobile/architecturals.jpg";
+import CardArchitecDesktopImg from "@/assets/images/stories/desktop/architecturals.jpg";
+
 export const HOME_INFO = [
   {
     id: 0,
@@ -54,6 +67,53 @@ export const HOME_INFO = [
         mobile: DesignedMobileImg,
         tablet: DesignedTabletImg,
         desktop: DesignedDesktopImg,
+      },
+    ],
+  },
+];
+
+export const CARD_INFO = [
+  {
+    id: 0,
+    title: "The Mountains",
+    author: "by John Appleseed",
+    images: [
+      {
+        mobile: CardMountainsMobileImg,
+        desktop: CardMountainsDesktopImg,
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Sunset Cityscapes",
+    author: "by Benjamin Cruz",
+    images: [
+      {
+        mobile: CardSunsetMobileImg,
+        desktop: CardSunsetDesktopImg,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "18 Days Voyage",
+    author: "by Alexei Borodin",
+    images: [
+      {
+        mobile: CardVoyageMobileImg,
+        desktop: CardVoyageDesktopImg,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Architecturals",
+    author: "by Samantha Brooke",
+    images: [
+      {
+        mobile: CardArchitecMobileImg,
+        desktop: CardArchitecDesktopImg,
       },
     ],
   },

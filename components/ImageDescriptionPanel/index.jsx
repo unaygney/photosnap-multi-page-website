@@ -62,7 +62,7 @@ function ImageDescriptionPanel({ info, onRight, isDark }) {
               key={index}
               src={image.desktop}
               fill
-              className="hidden lg:block object-cover"
+              className="hidden lg:block "
               placeholder="blur"
             />
           </>

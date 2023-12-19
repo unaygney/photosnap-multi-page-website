@@ -1,6 +1,7 @@
-import ImageDescriptionPanel from "@/components/ImageDescriptionPanel";
 import React from "react";
-import { HOME_INFO } from "./constant";
+import ImageDescriptionPanel from "@/components/ImageDescriptionPanel";
+import ImageCard from "@/components/ImageCard";
+import { CARD_INFO, HOME_INFO } from "./constant";
 
 function HomeContainer() {
   return (
@@ -12,6 +13,11 @@ function HomeContainer() {
           isDark={info.isDark}
         />
       ))}
+      <div className="flex flex-wrap   ">
+        {CARD_INFO.map((card) => (
+          <ImageCard info={card} />
+        ))}
+      </div>
     </>
   );
 }
