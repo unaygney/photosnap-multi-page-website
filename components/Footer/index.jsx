@@ -38,7 +38,7 @@ function Footer() {
             <Link href={"/"}>
               <Logo />
             </Link>
-            <div>
+            <div className="cursor-pointer">
               <Image
                 src={SocialLinks}
                 alt="social links image"
