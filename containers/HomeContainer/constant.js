@@ -18,6 +18,7 @@ export const HOME_INFO = [
     content:
       "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
     buttonDescription: "get an invite",
+    isDark: true,
     images: [
       {
         mobile: CreateMobileImg,
@@ -32,6 +33,7 @@ export const HOME_INFO = [
     content:
       "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
     buttonDescription: "view the stories",
+    isDark: false,
     images: [
       {
         mobile: StoriesMobileImg,
@@ -46,6 +48,7 @@ export const HOME_INFO = [
     content:
       "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ",
     buttonDescription: "view the stories",
+    isDark: false,
     images: [
       {
         mobile: DesignedMobileImg,

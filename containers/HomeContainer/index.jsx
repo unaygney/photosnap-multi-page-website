@@ -9,6 +9,7 @@ function HomeContainer() {
         <ImageDescriptionPanel
           info={info}
           onRight={i % 2 === 0 ? true : false}
+          isDark={info.isDark}
         />
       ))}
     </>
