@@ -9,7 +9,6 @@ import clsx from "clsx";
 // IF IT IS FALSE , THE CONTENT APPERARS ON THE LEFT
 
 function ImageDescriptionPanel({ info, onRight, isDark }) {
-  console.log(info);
   return (
     <div className="flex flex-col md:flex-row w-full">
       {/* Content */}
