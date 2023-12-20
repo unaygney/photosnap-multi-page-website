@@ -12,16 +12,17 @@ function HomeContainer() {
           info={info}
           onRight={i % 2 === 0 ? true : false}
           isDark={info.isDark}
+          key={i}
         />
       ))}
       <div className="flex flex-wrap   ">
         {CARD_IMAGE.map((card) => (
-          <ImageCard info={card} />
+          <ImageCard key={card.id} info={card} />
         ))}
       </div>
       <div className="container mx-auto flex flex-wrap gap-14 lg:gap-0 my-20 md:my-[120px] md:justify-center lg:justify-start">
         {CARD_INFO.map((info) => (
-          <CardInfo info={info} />
+          <CardInfo key={info.id} info={info} />
         ))}
       </div>
     </>

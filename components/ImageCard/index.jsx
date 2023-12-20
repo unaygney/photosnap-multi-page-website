@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Image from "next/image";
 import ArrowImg from "./Arrow.svg";
 function ImageCard({ info }) {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/4 h-[375px] md:h-[500px]  relative">
+    <div className="w-full md:w-1/2 lg:w-1/4 h-[375px] md:h-[500px]  relative hover:-translate-y-6 transition delay-200  hover:border-b-[6px] border-gradient  ">
       {info.images.map((image) => (
-        <>
+        <div key={info.id}>
           <Image
             src={image.mobile}
             alt={`${image.title} image's`}
@@ -20,7 +20,7 @@ function ImageCard({ info }) {
             placeholder="blur"
             className="hidden lg:block"
           />
-        </>
+        </div>
       ))}
       <div className="absolute bottom-10 left-8 md:left-10 md:right-10 right-8 text-white ">
         <div className="flex flex-col gap-1 ">

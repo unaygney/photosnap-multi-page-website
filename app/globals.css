@@ -67,3 +67,8 @@
     color: #000;
   }
 }
+
+.border-gradient {
+  border-image: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+  border-image-slice: 1;
+}
