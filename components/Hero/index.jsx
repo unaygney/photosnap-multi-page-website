@@ -43,7 +43,7 @@ function Hero({ info }) {
               {info.date}
             </h4>
             <span className="opacity-100 text-white text-[13px]">
-              {info.highlight}
+              {info.author}
             </span>
           </div>
           <p>{info.content}</p>

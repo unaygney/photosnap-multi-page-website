@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <>
-      <header className="container mx-auto z-20">
+      <header className="container mx-auto z-20 ">
         <div className="flex justify-between lg:justify-between items-center px-6 md:px-10 lg:px-0 py-7 md:py-4 relative bg-white  z-20">
           <Link href={"/"}>
             <Logo />

@@ -18,7 +18,7 @@ function ImageCard({ info }) {
             alt={`${image.title} image's`}
             fill
             placeholder="blur"
-            className="hidden lg:block"
+            className="hidden lg:block brightness-75 "
           />
         </div>
       ))}
