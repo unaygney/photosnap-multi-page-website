@@ -11,7 +11,7 @@ function ImageCard({ info }) {
             alt={`${image.title} image's`}
             fill
             placeholder="blur"
-            className="lg:hidden"
+            className="lg:hidden brightness-75"
           />
           <Image
             src={image.desktop}
