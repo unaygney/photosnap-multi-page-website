@@ -3,7 +3,7 @@ import Image from "next/image";
 import ArrowImg from "./Arrow.svg";
 function ImageCard({ info }) {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/4 h-[375px] md:h-[500px]  relative hover:-translate-y-6 transition delay-200  hover:border-b-[6px] border-gradient  ">
+    <div className="w-full md:w-1/2 lg:w-1/4 h-[375px] md:h-[500px]  relative md:hover:-translate-y-6 transition delay-200  md:hover:border-b-[6px] border-gradient  ">
       {info.images.map((image) => (
         <div key={info.id}>
           <Image
