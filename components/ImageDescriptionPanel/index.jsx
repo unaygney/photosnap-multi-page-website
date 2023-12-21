@@ -28,10 +28,13 @@ function ImageDescriptionPanel({ info, onRight, isDark }) {
           <p className="text-[15px] font-normal leading-6 opacity-60">
             {info.content}
           </p>
-          <button className="inline-flex justify-start  items-center gap-[22px] uppercase text-xs font-bold tracking-[2px] leading-normal hover:opacity-30 mt-2 ">
-            {info.buttonDescription}
-            {isDark ? <ArrowImgWhite /> : <ArrowImgDark />}
-          </button>
+
+          {info.buttonDescription && (
+            <button className="inline-flex justify-start  items-center gap-[22px] uppercase text-xs font-bold tracking-[2px] leading-normal hover:opacity-30 mt-2 ">
+              {info.buttonDescription}
+              {isDark ? <ArrowImgWhite /> : <ArrowImgDark />}
+            </button>
+          )}
         </div>
       </div>
 

@@ -20,7 +20,7 @@ function HomeContainer() {
           <ImageCard key={card.id} info={card} />
         ))}
       </div>
-      <div className="container mx-auto flex flex-wrap gap-14 lg:gap-0 my-20 md:my-[120px] md:justify-center lg:justify-start">
+      <div className="container mx-auto  flex flex-wrap gap-14 lg:gap-0 my-20 md:my-[120px] md:justify-center lg:justify-start">
         {CARD_INFO.map((info) => (
           <CardInfo key={info.id} info={info} />
         ))}

@@ -17,6 +17,9 @@ module.exports = {
         },
       },
       backgroundImage: (theme) => ({
+        "beta-mobile": "url('/bg-beta-mobile.jpg')",
+        "beta-tablet": "url('/bg-beta-tablet.jpg')",
+        "beta-desktop": "url('/bg-beta-desktop.jpg')",
         "custom-gradient": `linear-gradient(27deg, ${theme(
           "colors.customGradient.start"
         )} 0%, ${theme("colors.customGradient.middle")} 43.29%, ${theme(
