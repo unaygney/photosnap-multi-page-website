@@ -43,6 +43,9 @@ export const PRICING_CARD = [
 ];
 
 export const COMPARE_TABLE = [
+
+
+
   {
     method: "Basic",
     features: {
