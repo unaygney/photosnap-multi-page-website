@@ -65,6 +65,7 @@ function Navbar() {
                     className="text-[15px] text-black font-bold tracking-[2.5px] leading-normal hover:opacity-30 uppercase"
                     key={link.id}
                     href={link.path}
+                    onClick={() => setOpen(false)}
                   >
                     {link.title}
                   </Link>
@@ -73,6 +74,7 @@ function Navbar() {
                 <Link
                   href={"/pricing"}
                   className="btn-dark font-bold text-[15px] w-full py-[14px] bg-black uppercase"
+                  onClick={() => setOpen(false)}
                 >
                   get an invite
                 </Link>
