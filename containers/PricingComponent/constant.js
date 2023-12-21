@@ -41,3 +41,45 @@ export const PRICING_CARD = [
       "Additional features available such as more detailed metrics. Recommended for business owners.",
   },
 ];
+
+export const COMPARE_TABLE = [
+  {
+    method: "Basic",
+    features: {
+      UNLIMITED_STORY_POSTING: true,
+      UNLIMITED_PHOTO_UPLOAD: true,
+      EMBEDDING_CUSTOM_CONTENT: false,
+      CUSTOMIZE_METADATA: false,
+      ADVANCED_METRICS: false,
+      PHOTO_DOWNLOADS: false,
+      SEARCH_ENGINE_INDEXING: false,
+      CUSTOM_ANALYTICS: false,
+    },
+  },
+  {
+    method: "Standard",
+    features: {
+      UNLIMITED_STORY_POSTING: true,
+      UNLIMITED_PHOTO_UPLOAD: true,
+      EMBEDDING_CUSTOM_CONTENT: true,
+      CUSTOMIZE_METADATA: true,
+      ADVANCED_METRICS: false,
+      PHOTO_DOWNLOADS: false,
+      SEARCH_ENGINE_INDEXING: false,
+      CUSTOM_ANALYTICS: false,
+    },
+  },
+  {
+    method: "Premium",
+    features: {
+      UNLIMITED_STORY_POSTING: true,
+      UNLIMITED_PHOTO_UPLOAD: true,
+      EMBEDDING_CUSTOM_CONTENT: true,
+      CUSTOMIZE_METADATA: true,
+      ADVANCED_METRICS: true,
+      PHOTO_DOWNLOADS: true,
+      SEARCH_ENGINE_INDEXING: true,
+      CUSTOM_ANALYTICS: true,
+    },
+  },
+];
