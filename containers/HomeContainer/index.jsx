@@ -6,7 +6,7 @@ import CardInfo from "@/components/CardInfo";
 
 function HomeContainer() {
   return (
-    <>
+    <main>
       {HOME_INFO.map((info, i) => (
         <ImageDescriptionPanel
           info={info}
@@ -25,7 +25,7 @@ function HomeContainer() {
           <CardInfo key={info.id} info={info} />
         ))}
       </div>
-    </>
+    </main>
   );
 }
 
